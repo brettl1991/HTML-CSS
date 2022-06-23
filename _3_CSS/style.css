@@ -95,7 +95,29 @@ li:last-child {
 li:nth-child(even) {
   color: aquamarine;
 } */
-
+/* 
 article p:last-child {
   color: red;
+} */
+
+/* Styling hyperlinks, always in this order: LVHA */
+/*only targets a elements that has href attribute*/
+a:link {
+  color: #1098ab;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ab;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
