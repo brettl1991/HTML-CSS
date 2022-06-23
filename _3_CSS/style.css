@@ -80,3 +80,22 @@ aside {
   border-top: 5px solid #1098ab;
   border-bottom: 5px solid #1098ab;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  color: red;
+}
+
+li:nth-child(even) {
+  color: aquamarine;
+} */
+
+article p:last-child {
+  color: red;
+}
