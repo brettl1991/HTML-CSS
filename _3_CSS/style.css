@@ -100,7 +100,7 @@ article p:last-child {
   color: red;
 } */
 
-/* Styling hyperlinks, always in this order: LVHA */
+/* Styling hyperlinks, always in this order like below: LVHA */
 /*only targets a elements that has href attribute*/
 a:link {
   color: #1098ab;
