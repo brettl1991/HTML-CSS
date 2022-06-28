@@ -3,7 +3,7 @@
   /* border-top: 10px solid #1098ab; */
 /* } */
 
-/* inheritance: can be easily overwritten by giving new property to the element, mostly apply for text */
+/* Inheritance: can be easily overwritten by giving new property to the element, mostly apply for text */
 body {
   color: red;
   font-family: sans-serif;
