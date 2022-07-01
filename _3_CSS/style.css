@@ -19,6 +19,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -38,6 +39,7 @@ aside {
   border-top: 5px solid #1098ab;
   border-bottom: 5px solid #1098ab;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -188,3 +190,8 @@ footer p {
   when there is a bg-color or border on the element.
 margin: in order to create space outside of an element or create space between multiple elements. 
 In case need to add vertical space sticks to margin-bottom. */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
