@@ -9,6 +9,7 @@
 }
 
 /* Inheritance: can be easily overwritten by giving new property to the element, mostly apply for text */
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
@@ -23,7 +24,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -45,6 +46,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -98,6 +101,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 /* footer p {
@@ -198,4 +202,19 @@ In case need to add vertical space sticks to margin-bottom. */
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  /* margin and padding vertically not added to inline elements just horisontally*/
+  /*margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
