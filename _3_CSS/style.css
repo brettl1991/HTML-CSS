@@ -230,3 +230,34 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+/* PSEUDO-ELEMENTS */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* adjacent element: sybling that comes right after the element and the selector for it is the + sign*/
+
+h3 + p::first-line {
+  /* color: red; */
+}
+
+/* after(become very last child element) and before(become very first child element) pseudo elements: we dont need to always create new elements for small things we can use these pseudo elements, always first need to specify content property inside, can be empty string too, by default any psuedo element an inline element */
+h2 {
+  /* background-color: orange; */
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
