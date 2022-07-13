@@ -175,19 +175,19 @@ a:active {
 
 /* Resolving conflicts */
 #copyright {
-  color: red;
+  /* color: red; */
 }
 
 .copyright {
-  color: blue;
+  /* color: blue; */
 }
 
 .text {
-  color: yellow;
+  /* color: yellow; */
 }
 
 footer p {
-  color: green;
+  /* color: green; */
 }
 
 /* Inheritance */
