@@ -244,7 +244,7 @@ h3 + p::first-line {
   /* color: red; */
 }
 
-/* after(become very last child element) and before(become very first child element) pseudo elements: we dont need to always create new elements for small things we can use these pseudo elements, always first need to specify content property inside, can be empty string too, by default any psuedo element an inline element */
+/* after(become very last child element) and before(become very first child element) pseudo elements: we dont need to always create new elements for small things we can use these pseudo elements, always first need to specify content property inside, can be empty string too, by default any psuedo element an inline element, aslo anchor elements are inline elemnts by default so margin and padding wont work horisontally*/
 h2 {
   /* background-color: orange; */
   position: relative;
