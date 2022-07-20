@@ -286,3 +286,15 @@ h1 {
 nav {
   float: right;
 }
+
+/*Clearing float caused container problems with clear and adding empty div to the html manually*/
+.clear {
+  clear: both;
+}
+
+/*Using clearfix class to solve container problem: this is like same as we adding empty div to the html manually like above, claering floats like this only working on block elements*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
